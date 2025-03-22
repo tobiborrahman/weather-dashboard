@@ -158,7 +158,7 @@ export default function WeatherData() {
 
     return (
         <div className="min-h-screen bg-[url('/background.jpg')] bg-cover bg-fixed bg-center">
-            <div className="container mx-auto py-28 text-white">
+            <div className="container mx-auto py-28 px-5 lg:px-0 text-white">
                 <h1 className="text-6xl font-bold mb-4 text-center">Weather Dashboard</h1>
                 {error && <p className="text-red-500 text-center">{error}</p>}
                 <div className="mb-4 flex justify-center items-center">
